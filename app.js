@@ -126,7 +126,7 @@ app.post('/todos/', async (request, response) => {
          '${status}'
       );`
   await db.run(addTodoQuery)
-  response.send('Todo successfully added')
+  response.send('Todo Successfully Added')
 })
 
 //api 4
